@@ -2,7 +2,7 @@
    Android SSL pinning bypass frida script  
 
    $ adb push burpca-cert-der.crt /data/local/tmp/cert-der.crt
-   $ frida -U -f it.app.mobile -l aal-bypass.js --no-pause
+   $ frida -U -f it.app.mobile -l ssl-bypass.js --no-pause
 
    */
 
